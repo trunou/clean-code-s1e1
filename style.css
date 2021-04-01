@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+#container {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -59,7 +59,7 @@ button:hover {
 
 /* Heading */
 
-h3,
+.block-title,
 label[for="new-task"] {
   color: #333;
   font-weight: 700;
