@@ -13,35 +13,35 @@
   <section class="main">
     <h3 class="block-title">Add Item</h3>
     <div class="task-name">
-      <input id="new-task" class="task" type="text"><button>Add</button>
+      <input id="new-task" class="list__item__task" type="text"><button>Add</button>
     </div>
 
     <h3 class="block-title">Todo</h3>
     <ul id="incompleted" class="todo list">
-      <li class="item">
-        <input type="checkbox"><label class="task">Pay Bills</label>
-        <input type="text" class="task">
-        <button class="edit btn">Edit</button>
-        <button class="delete btn">
+      <li class="list__item">
+        <input type="checkbox"><label class="list__item__task">Pay Bills</label>
+        <input type="text" class="list__item__task">
+        <button class="edit list__item__btn">Edit</button>
+        <button class="delete list__item__btn">
           <img src="./remove.svg" alt="Remove button">
         </button>
       </li>
-      <li class="edit-mode item">
-        <input type="checkbox"><label class="task">Go Shopping</label>
-        <input type="text" value="Go Shopping" class="task">
-        <button class="edit btn">Save</button>
-        <button class="delete btn">
+      <li class="edit-mode list__item">
+        <input type="checkbox"><label class="list__item__task">Go Shopping</label>
+        <input type="text" value="Go Shopping" class="list__item__task">
+        <button class="edit list__item__btn">Save</button>
+        <button class="delete list__item__btn">
           <img src="./remove.svg" alt="Remove button">
         </button>
       </li>
     </ul>
     <h3 class="block-title">Completed</h3>
     <ul id="completed" class="completed list">
-      <li class="item">
-        <input type="checkbox" checked><label class="task">See the Doctor</label>
-        <input type="text" class="task">
-        <button class="edit btn">Edit</button>
-        <button class="delete btn">
+      <li class="list__item">
+        <input type="checkbox" checked><label class="list__item__task">See the Doctor</label>
+        <input type="text" class="list__item__task">
+        <button class="edit list__item__btn">Edit</button>
+        <button class="delete list__item__btn">
           <img src="./remove.svg" alt="Remove button">
         </button>
       </li>
